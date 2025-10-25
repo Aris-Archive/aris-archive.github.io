@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap);
+    .main{
+        width: 100%;
+        height: 100%;
+        border-collapse: separate;
+        border-spacing: 0 10px;
+        position: relative;
+        z-index: 1;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    .main::after{
+        width: 100%;
+        height: 100%;
+        content: "";
+        background-size: cover;
+        background-color: white;
+        background-position: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0.8;
+    }
+    #content{
+        font-size: calc(2vw + 18px); 
+        text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    }
+    #goto{
+        font-size: calc(1.2vw + 18px); 
+        text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    }
+    a#site{
+        text-decoration:none;
+    }
+    a#site:hover{
+        text-decoration:underline;
+    }
+    .center{
+        margin:0 auto;
+    }
+    body {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+    .profile{
+        width: 300px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .radius_profile{
+        border-radius: 50%;
+        width: 200px;
+    }
+    #nickname{
+        font-family: "Noto Sans KR";
+        font-size: calc(2vw + 18px);
+        text-align: center;
+    }
+    .b1{
+        width: 80%;
+        max-width: 512px;
+        height: 80px;
+        background-color: aquamarine;
+        position: relative;
+        margin-bottom: 5px;
+    }
+    .b1 a{
+        text-decoration-line: none;
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    .icon{  
+        width: 50px;
+        height: auto;
+        margin-left: 5px;
+    }
+    .div_icon{
+        float:left;
+        width: 60px;
+        position: absolute;
+        top: 50%;
+        margin-left: 5px;
+        transform: translate(0, -50%);
+    }
+    .div_profile{
+        margin-left: 10px;
+    }
+    .username{
+        position: absolute;
+        top: 50%;
+        margin-left: 35px;
+        transform: translate(0, -50%);
+        font-family: 'Noto Sans KR', sans-serif;
+        color: black;
+    }
+    ul, ol {
+        list-style: none;
+    }
